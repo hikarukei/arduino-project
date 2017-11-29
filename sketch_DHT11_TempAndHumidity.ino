@@ -89,11 +89,8 @@ void loop() {
   float h = dht.readHumidity();
   // Read temperature as Celsius (the default)
   float t = dht.readTemperature();
-  
-  // Compute heat index in Celsius (isFahreheit = false)
-  float hic = dht.computeHeatIndex(t, h, false);
 
-  //print the final measurement to serial output
+  //print the final measurement to LCD Output
   lcd.setCursor(0, 0);
   lcd.print("Humid.: ");
   lcd.setCursor(8, 0);
