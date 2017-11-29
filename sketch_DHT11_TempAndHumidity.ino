@@ -1,6 +1,6 @@
 // Created by team PejalanKaki (Brain, Hafizh, Nobel, Reyhan, Yoga)
 // PRD I
-// Reference: Arduino Project Hub
+// Reference: Arduino Project Hub, Arduino Tutorials on https://www.arduino.cc/en/tutorial/
 
 #include <DHT.h>                       //include DHTxx Library
 #include <LiquidCrystal.h>                   //include LCD Library
